@@ -1,0 +1,47 @@
+
+.calendar{
+width: 400px;
+height: 63px;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(180, 182, 179);
+    font-size: 150%;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.dayweek{
+    width: 400px;
+    height: 30px;
+    background-color: lightblue;
+    font-size: 27px;
+    text-align: center;
+    box-sizing: border-box;
+    background: center rgb(240, 198, 59);
+
+    
+}
+.dayweek1 .dayweek2 .weekand .dayweek5 .dayweek6 {
+    padding: 2px 5px;
+    display: block;
+    grid-gap: 25px;
+    font-weight: 200;
+    
+    
+    
+    
+  
+
+}
+
+.weekand{
+    color: red;
+    box-sizing: border-box;
+}
+.dayred{
+    
+    background-color: orangered;
+}

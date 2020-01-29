@@ -1,0 +1,14 @@
+.box{
+    background-color: red; /*цвет фона*/
+    background-image: url(../img/multigress.jpg); /*изображение фона*/
+    background-repeat: no-repeat;
+    
+     /*  no-repeat отключает повторение по оси X и Y
+     repeat-X -повторение будет только по оси X
+     no-repeat-Y  -повторение будет только по оси Y
+     */
+
+    width: 400px;
+    height: 500px;
+
+}
