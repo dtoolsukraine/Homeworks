@@ -1,49 +1,43 @@
-.calendar{
-    margin: 0px;
-    padding: 1px;
-    width: 400px;
-    height: 40px;
-    color: rgb(32, 32, 32);
-    background-color: rgb(196, 196, 196);
-    text-align: center;
-    font-weight: 800;
-    box-sizing: border-box;
 
-    
-}
 
-.dayweek  {
-margin: 0px;
-padding: 0px;
-width: 400px;
-height: 37px;
-font-size: 30px;
-background-color: rgba(226, 227, 228, 0.774);
-text-align: center;
-box-sizing: border-box;
+ .clear{
+     clear: both;
+ }
 
-}
+ #calendar{
+     background-color: rgb(172, 171, 171);
+     width: 400px;
+     color: indigo;
+ }
+ .calendar-head{
+     text-align: center;
+     padding: 25px 0;
+     font-size: 40px;
+ }
+ .calendar-day{
+     
+     background-color: khaki;
+     color: black;
+.calendar-days
 
-.weekend{
-color: red;
-}
-.weekend1{
-    color: red;
-    }
-    .greyend{
-        color: rgb(153, 151, 151);
-    }
+ }
+ .week, .weekday, .calendar-days .day, .day-weekand, .day-curent  {
+     float: left;
+     text-align: center;
+     font-size: 35px;
+     width: 57px;
+     height: 57px;
+     line-height: 50px;
 
-    .grey{
-        color: rgb(153, 151, 151)
-    }
-    .dayred{
-        background-color: rgb(218, 31, 10);
-        color: rgb(255, 25, 0);
-    }
+ }
+ .calendar-days{
+     background-color: rgb(217, 222, 224);
+ }
 
-    .block{
-       background-color: rgb(252, 250, 168);
-        width: 400px;
-        border: 2px solid hexrgb(124, 124, 124);
-    }
+ .day-weekand, .weekday, .day-curent{
+     color: red;
+ }
+ .day-curent{
+     background-color: rgb(175, 172, 172);
+     
+ }
