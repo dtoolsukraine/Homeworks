@@ -1,0 +1,247 @@
+.text{
+    white-space: nowrap;
+
+    /*   normal-по умолчанию. Автоперенос строк атомотический
+    nowrap- запрещается перенос строк весь текст идет в одну строку, но работают переносом тегом <br> 
+
+    pre- весь текст в этом элименте будет выводится как есть со всеми пробелами и переносами 
+    ( как пишем так и переносится)
+   
+    pre-line  -  текст переносится на новую строку, если не помещается и сохраняется только пробелы
+     
+    pre-wrab -  екст переносится на новую строку, если не помещается и сохраняется пробелы и переносы */
+
+
+
+text-transform: uppercase;
+/*   
+uppercase- все символы становится заглавными
+capitalize- первый символ каждого слова в предложении будет заглавными
+lowercase-  все символы становятся строчными (маленькими буквы)
+  none- ничего не меняется ( по умолчанию)
+*/
+
+text-decoration: underline;
+
+/* 
+text-decoration- поддчеркивает текст
+overline-подчеркивает текст сверху ( линия сверху)
+line-throut -зачеркнутый текст
+none- по умолчанию ( ничего)
+text-decoration: ;
+*/
+text-decoration-color: red; 
+/*цвет подчеркивания*/
+
+text-decoration-style: dashed;
+/* solid прямая линия по умолчанию
+
+double- двойная линия
+dotted- точичная линия
+dashed- пунктирная линия
+wavу- волнистая линия
+*/
+
+/* СВОЙСТВО ШРИФТОВ*/
+
+font-family: Georgia, 'Times New Roman', Times, serif ;
+
+/* 
+Семейство шрифтов: 
+Serif- шрифты с засечкой
+Sun-serif-рубленые шрифты
+Monospace-моноширные шрифты
+Cursive - под наклоном рукописные шрифты
+Аллегорические шрифты-
+
+
+*/
+font-style: italic;
+
+/*
+normal-по умолчанию
+italic-курсив
+oblique----- */
+
+font-size: 20px;
+
+/*
+50%- размер будет родительского размер шрифта
+*/
+
+
+font-weight: bold;
+/*
+лучше использовать цифровые
+
+100-thin
+200-semilight
+300-light
+400-(normal), regular
+500-medium
+600-semi-bold
+700-bold
+800-extra-bold
+900- black
+
+*/
+
+font: bold italic 20px/40px arial, serif;
+
+/*
+font все можно указать в одну строку
+*/
+ 
+color: rgb(92, 91, 91);
+
+
+/* цвет текста*/
+
+text-overflow: clip;
+
+overflow: hidden;
+
+text-overflow: ellipsis;
+
+/*
+text-overlow- текст будет работать если задано св-во overflow
+clip обрезается по размеру области ( по умолчанию)
+ellipsis- обрезает текст и добавляет в конце многоточие
+*/
+word-break: normal;
+/* слова переносятся по умолчанию, либо там где тег br либо где пробелы
+
+break-all-слова будут переносится  но не по правилам языка, это св-во не работает дляа азиатских языков
+*/
+
+}
+a:link{
+color: red;
+}
+
+a:visited{
+    color: green
+
+}
+a:hover{
+    color: indigo;
+}
+
+a:active{
+    color: firebrick;
+}
+
+/* псевдокласс- это класс опереленный для элемента по умолчанию и обычно он обозначает какоето его состояние.
+ 
+а: link -это не посещенная ссыла
+a: visited- посещеная ссылка
+a: hover- наведение курсора на сылку
+a: active- это состояние нажатия но доотпуска кнопки.
+*/
+.l-gradient{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, red, purple, blue, orange);
+    background: linear-gradient(to top, red 10%, green 50%, blue 80%);
+    
+    /*
+    linear-gradient- выводит переход из одного цвета в другой (третий, четвертый....)
+    принимает любые цвета
+    Вместо градусов можно передать задокоментироные названия направления
+     to top -с низу вверх  0
+     to right- с лева на право  90
+     to bottom с верху вниз  180
+     to left    270
+
+      направление можно комбинировать 
+      to top left- из правого нижнего в верхний левый угол
+
+      Так же можно указывать с какого момента начнет 1 цвет в другой
+        (точки остановки градиента)
+        background: linear-gradient (to top, red20%, green50%, blue80%);
+
+
+        ОТРИСОВКА ПОЛОС ГРАДИЕНТОМ
+
+    */
+    background: linear-gradient(to left, red 20%, blue 20%, blue 80%, purple 80%);
+}
+
+.r-gradient{
+    width: 300px;
+    height: 200px;
+
+    background: radial-gradient(closest-side at top, red, blue);
+
+    /* background: radial-gradient( форма градиента/ размер/ позиция цетра, первый цвет, второй цвет....);
+
+    ФОРМА радиента-элипс
+    ellipse- по умолчанию
+
+     circle- круг
+     Позиция центра по умолчанию 50% 50% (центр)
+
+      Есть задокументированные названия позиций и их можно комбинировать
+
+      at top
+      at left
+      at right
+      at bottom
+
+      Так же позицию можно задать в %, px,  - отталкиваться в этом случае позиция будет от верхнего левого угла
+
+      Размеры можно задават в %, px, em - передаются они двумя зачениями
+      1- ширина элипса
+      2-высота элипса
+
+      Есть так же задокументоовланые названия для размеров
+
+      closest-side - размер градиента будет расчитан до любой ближайшей стороны
+
+      fartherst-side размер градиента будет расчитан до любой дальней стороны
+
+      closest-corner  размер градиента будет расчитан до любого ближайшего угла
+
+      fartherst-corner - размер градиента будет расчитан до любого дальнего угла
+
+     */
+}
+.ball{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 65% 25%, aqua, darkblue);
+}
+
+.l-repeat-gradient{
+    height: 300px;
+    background: repeating-linear-gradient(45deg, red, red 10px, blue 10px, blue 20px);
+}
+
+.r-repeat-gradient{
+    height: 300px;
+    background: repeating-radial-gradient(circle, red, red 10px, blue 10px, blue 20px);
+    
+}
+
+/* ЗАКРУГЛЕНИЕ УГЛОВ*/
+
+.rounded{
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+
+    border-radius: 40px/10px;
+}
+/* Border-radius- может принимать px/%/em  
+
+Так же есть такие варианты записи:
+
+border-radius: 20px
+                   0 0 20px 20px  ( начинается от левого верхнего угла и по часовой стрелки)
+                             0 0 20px
+                             10px 20px
+
+                             10px/20px  для всех 2х углов ( для создания скошеных углов)  https://html5book.ru/css3-borders/
+*/
+border-radius: 20px

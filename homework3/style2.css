@@ -1,0 +1,35 @@
+.clear{
+    .clear.both;
+}
+#calendar{
+    background-color: rgb(180, 179, 179);
+    width: 400px;
+    color: red;
+    
+}
+.calendar-head{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0;
+
+}
+.calendar-week{
+background: seagreen;
+}
+
+
+.week, .days, .weekred, .daysred, .redcurent{
+    text-align: center;
+    color: rgb(9, 218, 44);
+    font-size: 30px;
+    float: left;
+    height: 57px;
+    width: 57px;
+line-height: 50px;
+}
+.weekred, .daysred, .redcurent{
+    color: red;
+}
+.redcurent{
+    background: rosybrown;
+}
