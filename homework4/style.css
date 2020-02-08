@@ -1,11 +1,11 @@
-/* последняя редакция*/
+/* последняя редакция 4*/
 .background{
     position: relative;
     background: linear-gradient(to top, rgb(255, 255, 255), rgb(141, 190, 236), rgb(5, 148, 214));
     height: 700px;
     width: 900px;
     left: 51px;
-    margin: 120px 0px 0px 0px;
+    
     
 
 }
@@ -94,36 +94,35 @@ z-index: 17;
 
 .ramkatop{
     position: absolute;
-    width: 960px;
-    height: 49px;
-    top: 97px;
-    left: 22px;
+    width: 900px;
+    height: 34px;
     z-index: 17; 
 }
 .ramkar{
-position: absolute;
-width: 33px;
-height: 753px;
-top: 93px;
-right: 369px;
-z-index: 17;
+    position: absolute;
+    width: 33px;
+    height: 698px;
+    bottom: 2px;
+    right: 0px;
+    z-index: 17;
 }
 
 .ramkabottom{
     position: absolute;
-    width: 960px;
+    width: 901px;
     height: 35px;
-    bottom: -180px;
     left: 25px;
+    bottom: 0px;
+    left: 0px;
     z-index: 17;
 }
 
 .ramkal{
     position: absolute;
-    width: 49px;
-    height: 740px;
-    top: 98px;
-    left: 30px;
+    width: 40px;
+    height: 700px;
+    top: 0px;
+    left: 0px;
     z-index: 17;
 }
 
