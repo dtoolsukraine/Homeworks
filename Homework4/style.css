@@ -1,82 +1,84 @@
-
+/* последняя редакция*/
     .background{
         position: relative;
-        background: linear-gradient(to top, rgb(141, 199, 233), rgb(71, 153, 230), rgb(14, 164, 233));
-        height: 275px;
-        width: 800px;
+        background: linear-gradient(to top, rgb(255, 255, 255), rgb(141, 190, 236), rgb(5, 148, 214));
+        height: 700px;
+        width: 900px;
         left: 51px;
+        margin: 30px 0px 45px 0px;
         
  
     }
-    
-    
-.pos-relative {
+      
+.pole {
     position: absolute;
-    
-    top: 230px;
-    left: 60px;
+    bottom: 0px;
+    width: 900px;
     z-index: 3;
     }
-    .castle{
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        bottom: 95px;
-        right: 370px;
-        z-index: 15;
-    
-}
-       
 
-.pos-relative-child{
-    position: absolute;
-    width: 160px;  
-height: 160px;
-top: 5px;
-left: 65px;
-}
-.cloud{
-    position: absolute;
-    width: 390px;
-    height: 191px;
-    bottom: 175px;
-    left: -25px;
-    z-index: 10;
-}
-    .aircraft{
+    .sun {
         position: absolute;
-        width: 100px;
-        height: 100px;
-        bottom: 200px;
-        left: -44px;
-        z-index: 9;
-    
-}
+        left: 5%;
+        top: 5%;
+        width: 25%;
+        height: 25%;
+    }
+    .horses {
+            position: absolute;
+            width: 160px;  
+            height: 160px;
+            bottom: 17%;
+            left: 10%;
+           z-index: 5;
+        }
 
-.hors{
-    position: absolute;
-    width: 160px;  
-height: 160px;
-top: 250px;
-left: 65px;
-z-index: 7;
-}
-
-.knight{
-    
+    .shadow {
         position: absolute;
-        top: -40px;
-        left: -178px;
-        
+        width: 140px;  
+        height: 110px;
+        bottom: 10%;
+        left: 12%;
+        z-index:4;
     }
 
-.shadow {
-    position: absolute;
-    width: 160px;  
-height: 160px;
-top: 40px;
-left: -245px;
+    .knight {
+        position: absolute;
+            width: 60px;  
+        height: 110px;
+        bottom: 25%;
+        left: 18%;
+        z-index:8;
+    }
 
+    .castle {
+        position: absolute;
+        width: 160px;
+        height: 140px;
+        bottom: 34%;
+        left: 5%;
+        z-index: 8;
+ 
+    }
+
+    .cloud{
+        position: absolute;
+        width: 445px;
+        height: 191px;
+        top: 10%;
+        right: 5%;
+        z-index: 10;
+       
+}
+
+
+    .aircraft{
+        position: absolute;
+        width: 55%;
+        height: 7%;
+        top: 25%;
+        right:  0px;
+        z-index: 9;
     
 }
 
@@ -85,43 +87,45 @@ left: -245px;
     position: absolute;
     width: 180px;  
     height: 80px;
-    top: 38px;
-    left: 250px;
-    z-index: 4;
+    bottom: 145px;
+    left: 345px;
+    z-index: 17;  
 }
+
 .ramkatop{
     position: absolute;
-    width: 840px;  
-    height: 38px;
-    top: -295px;
-    left:-347px;
-    z-index: 15;
+    width: 960px;
+    height: 39px;
+    top: 6px;
+    left: 22px;
+    z-index: 17; 
 }
 .ramkar{
     position: absolute;
-    width: 35px;
-    height: 520px;
-    top: -297px;
-    right: -313px;
-    z-index: 16
+    width: 33px;
+    height: 753px;
+    top: 0px;
+    right: 360px;
+    z-index: 17;
 }
 
     .ramkabottom{
         position: absolute;
-        width: 840px;
+        width: 960px;
         height: 35px;
-        bottom: -140px;
-        right: -315px;
-        z-index: 16;
+        bottom: -180px;
+        left: 25px;
+        z-index: 17;
     }
 
-.ramkal{
-    position: absolute;
-    width: 45px;
-    height: 510px;
-    top: -290px;
-    left: -340px;
-}
+    .ramkal{
+        position: absolute;
+        width: 49px;
+        height: 740px;
+        top: 6px;
+        left: 30px;
+        z-index: 17;
+    }
 
 
 
