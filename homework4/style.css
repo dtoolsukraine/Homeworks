@@ -1,0 +1,131 @@
+/* последняя редакция*/
+    .background{
+        position: relative;
+        background: linear-gradient(to top, rgb(255, 255, 255), rgb(141, 190, 236), rgb(5, 148, 214));
+        height: 700px;
+        width: 900px;
+        left: 51px;
+        margin: 30px 0px 45px 0px;
+        
+ 
+    }
+      
+.pole {
+    position: absolute;
+    bottom: 0px;
+    width: 900px;
+    z-index: 3;
+    }
+
+    .sun {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        width: 25%;
+        height: 25%;
+    }
+    .horses {
+            position: absolute;
+            width: 160px;  
+            height: 160px;
+            bottom: 17%;
+            left: 10%;
+           z-index: 5;
+        }
+
+    .shadow {
+        position: absolute;
+        width: 140px;  
+        height: 110px;
+        bottom: 10%;
+        left: 12%;
+        z-index:4;
+    }
+
+    .knight {
+        position: absolute;
+            width: 60px;  
+        height: 110px;
+        bottom: 25%;
+        left: 18%;
+        z-index:8;
+    }
+
+    .castle {
+        position: absolute;
+        width: 160px;
+        height: 140px;
+        bottom: 34%;
+        left: 5%;
+        z-index: 8;
+ 
+    }
+
+    .cloud{
+        position: absolute;
+        width: 445px;
+        height: 191px;
+        top: 10%;
+        right: 5%;
+        z-index: 10;
+       
+}
+
+
+    .aircraft{
+        position: absolute;
+        width: 55%;
+        height: 7%;
+        top: 25%;
+        right:  0px;
+        z-index: 9;
+    
+}
+
+
+.pastux{
+    position: absolute;
+    width: 180px;  
+    height: 80px;
+    bottom: 145px;
+    left: 345px;
+    z-index: 17;  
+}
+
+.ramkatop{
+    position: absolute;
+    width: 960px;
+    height: 39px;
+    top: 6px;
+    left: 22px;
+    z-index: 17; 
+}
+.ramkar{
+    position: absolute;
+    width: 33px;
+    height: 753px;
+    top: 0px;
+    right: 360px;
+    z-index: 17;
+}
+
+    .ramkabottom{
+        position: absolute;
+        width: 960px;
+        height: 35px;
+        bottom: -180px;
+        left: 25px;
+        z-index: 17;
+    }
+
+    .ramkal{
+        position: absolute;
+        width: 49px;
+        height: 740px;
+        top: 6px;
+        left: 30px;
+        z-index: 17;
+    }
+
+
+
