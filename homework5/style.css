@@ -1,0 +1,435 @@
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,700i&display=swap');
+
+
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/3976-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+    a{ 
+      text-decoration: none;  /* Отменяем подчеркивание у ссылки */
+     } 
+
+
+     
+    
+#wrapper{
+  
+ max-width:  1024px;
+  margin: 0 auto;
+  
+}
+
+
+.header{
+  position: relative;
+    width: 1024px;
+    height: 100px;
+    background-color: rgb(236, 234, 230);
+    padding: 0px;
+    margin: 0px;
+    background-size: 1024px;
+    box-sizing: border-box
+    
+  }
+          .logo {
+            margin: 1px 4px 1px 5px;
+          }
+
+
+              .kievstar{
+                position: absolute;
+                  width: 90px;
+                  left: 650px;
+                  bottom: 25px;
+              }
+
+                .vadafon{
+                  position: absolute;
+                    width: 70px;
+                    left: 370px;
+                    bottom: 10px;
+                }
+                    .numbervadafon{
+                      position: absolute;
+                      left: 440px;
+                      bottom: 21px;
+                      color: red;
+                      font-size: 18px;
+                      text-decoration: none;
+                    }
+                          .numberkievstar{
+                            position: absolute;
+                          left: 750px;
+                          bottom: 21px;
+                          color:
+                          red;
+                          font-size: 18px;
+                          text-decoration: none;
+                          }
+
+                            .karzina{
+                              position: absolute;
+                              width: 55px;
+                              right: 5px;
+                              top: 10px;
+                            }
+                            .search{
+                              position: absolute;
+                              width: 285px;
+                              height: 23px;
+                              left: 675px;
+                              bottom: 75px;
+                              background: rgb(200, 200, 200);
+                              border-radius: 2px;
+                              text-align: center;
+                              box-shadow: 0px 1px 1px 0px;
+                                                      }
+                                                      .search:hover{
+                                                        position: absolute;
+                                                          width: 285px;
+                                                          height: 23px;
+                                                          left: 673px;
+                                                          bottom: 73px;
+                                                          background: rgb(138, 137, 137);
+                                                          border-radius: 2px;
+                                                          text-align: center;
+                                                          box-shadow: 0px 1px 1px 0px;}
+
+body{
+  font-family: 'ubunturegular';
+  margin: 0;
+ background: linear-gradient(to top ,coral, #fefcea, #ff8f27cc);
+  box-sizing: border-box;
+  
+}
+      footer{
+        
+        width: 1024px;
+        position: absolute;
+        height: 120px;
+        background: rgb(211, 208, 208);
+        padding: 0px;
+        margin: 0;
+        font-size: 16px;
+        display: block;
+        box-sizing: border-box;
+        clear: both;
+        box-shadow: 0px -6px 5px -1px rgba(56, 54, 54, 0.37);
+        background: linear-gradient(to right ,rgb(214, 214, 214), #fefcea, #ffffff);
+      }
+
+              .textfooter{
+                position: absolute;
+                  color: black;
+                  font-size: 12px;
+                  display: inline-block;
+                  margin-top: 105px;
+                
+              }
+              .social{
+                position: absolute;
+                
+                margin: 35px 0 5px;
+                right: 5px;
+              }
+
+/*----NAV меню навигации-*/
+
+
+
+#menu, #menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 55;
+}
+#menu{
+  background: rgb(240, 102, 11);
+  
+}
+#menu a:hover{
+  background-color: coral;
+}
+
+#menu a{
+  color: rgb(70, 70, 70);
+  font-size: 14px;
+}
+
+#menu > li{
+  float: left;
+  position: relative;
+  justify-content: center ;
+}
+/* обнуление*/
+#menu::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+#menu ul{
+  display: none;
+  position: absolute;
+  left: 0; top: 100%;
+  background: rgb(238, 118, 5);
+
+}
+
+#menu a{
+  display: block;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+
+/*--меню футер*/
+
+
+#menufooter, #menufooter ul{
+
+  list-style: none;
+padding: 0;
+margin: 120px 0 0 0;
+}
+#menufooter{
+  background: rgb(240, 102, 11);
+
+  
+}
+#menufooter a:hover{
+  background-color: coral;
+}
+
+#menufooter a{
+  color: white;
+  font-size: 14px;
+}
+
+#menufooter > li{
+  float: left;
+  position: relative;
+}
+/* обнуление*/
+#menufooter::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+
+#menufooter ul{
+  display: none;
+  position: absolute;
+  left: 0; top: 100%;
+  background: rgb(238, 118, 5);
+
+}
+
+#menufooter a{
+  display: block;
+  padding: 7px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+/*=================главное меню товаров==================*/
+
+
+#mainmenu, #mainmenu ul{
+  list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: -1px 6px 5px -3px rgba(0,0,0,0.75);
+z-index: 10;
+}
+    #mainmenu{
+      background: rgb(240, 102, 11);
+    
+    }
+        #mainmenu a:hover{
+          background-color: rgb(245, 82, 18);
+          
+        }
+
+            #mainmenu > li{
+              float: left;/* смещение по вертикали меню*/
+              position: relative;
+              justify-content: center ;
+              left: 55px;
+              border: 1px solid #fb7b1e;
+              
+            }
+
+                  /* обнуление*/
+                  #mainmenu::after{
+                    content: '';
+                    clear: both;
+                    display: block;
+                  }
+
+                      #mainmenu ul{
+                        display: none;   /* делает невидимым блок при наведении мышкой выпадает, если убрать то подменю будут всегда видны*/
+                        position: absolute;
+                        left: 0; top: 100%;
+                        background: rgb(238, 118, 5);
+                      }
+                            #mainmenu > li:hover ul {
+                              display: block;/* делает блоки выпадающими*/
+                              color: white;
+                            }
+
+                                #mainmenu a{
+                                  display: block;
+                                  padding: 15px 14px;
+                                  text-decoration: none;
+                                  font-size: 14px;
+                                  color: bisque;  
+                                  border: 1px solid #fb7b1e;                           
+                                }
+
+                                      #mainmenu a:hover{
+                                        display: block;
+                                        color: white;
+                                      }
+     /*левое меню навигации*/
+     .text-el{
+      font-size: 18px;
+      color: white;
+      height: 39px;
+      padding: 0 0 0 5px;
+      background: rgb(180, 180, 180);
+      text-align: center;
+     }
+     .leftnavblock{
+       position: absolute;
+       top: 5px;
+       z-index: 101;
+       _width: 130px;
+     }
+                                      
+     #leftnav, #leftnav ul{
+      list-style: none;
+        padding: 0;
+        margin: 0;
+        box-shadow: 1px 3px 4px 2px rgba(0,0,0,0.75);
+    
+    }
+        #leftnav{
+          background: rgb(240, 102, 11);
+        
+        }
+            #leftnav a:hover{
+              background-color: rgb(245, 82, 18);
+              
+            }
+    
+                #leftnav > li{
+                  _float: left;/* смещение по вертикали меню*/
+                  position: none;
+                  justify-content: center ;
+                  left: 55px;
+                }
+    
+                      /* обнуление*/
+                      #leftnav::after{
+                        content: '';
+                        clear: both;
+                        display: block;
+                      }
+    
+                          #leftnav ul{
+                            display: none;   /* делает невидимым блок при наведении мышкой выпадает, если убрать то подменю будут всегда видны*/
+                            position: absolute;
+                            margin: 0 0 55px 125px;
+                            top: 25px;
+                             background: rgb(238, 118, 5);
+                          }
+                                #leftnav > li:hover ul {
+                                  display: block;/* делает блоки выпадающими*/
+                                  color: white;
+                                }
+    
+                                    #leftnav a{
+                                      display: block;
+                                      padding: 15px 14px;
+                                      text-decoration: none;
+                                      font-size: 16px;
+                                      color: bisque;  
+                                      border: 1px solid #fb7b1e;                        
+                                    }
+    
+                                          #leftnav a:hover{
+                                            display: block;
+                                            color: white;
+                                          }
+
+
+.top_frame_main{
+  position: relative;
+  width: 874px;
+}
+
+.fotopoduct{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 370px;
+  left: 450px;
+
+}
+
+
+.top_frame_tovar{
+  padding: 0;
+  position: absolute;
+  width: 530px;
+  height: 340px;
+  left: 334px;
+  top: 5px;
+  float: left;
+  /* margin: 5px 0 0 300px; */
+  border: 2px solid rgb(212, 212, 212);
+  box-sizing: border-box;
+  box-shadow: 5px 5px 8px -2px rgba(160, 159, 154, 0.77);
+}
+
+
+
+
+.sidebox {
+  position: relative;
+    width: 150px;
+    height: 800px;
+    margin: 5px 0 0 872px;
+    background: linear-gradient(to top ,#fefcea3d, #fefcea, #f0660b);
+    border: 1px solid rgb(192, 191, 191);
+}
+
+
+                  .pic{
+                    position: absolute;
+                    float: left;
+                    text-align: center;
+                    font-size: 15px;
+                    left: 15px;
+                    top: 5px;
+                  }
+                                    .delivery{
+                                      font-size: 22px;
+                                      position: absolute;
+                                      top: 90px;
+                                      left: 11px;
+                                      background: orange;
+                                      width: 120px;
+                                      text-align: center;
+                                      border-radius: 10px;
+                                      box-shadow: 1px 2px 4px 1px rgb(59, 59, 59);
+                                      box-sizing: border-box;
+                                                        }
