@@ -1,0 +1,4 @@
+.products td, .products th{
+    border: 1px solid #000;
+    height: 40px;
+    vertical-align: top;}
