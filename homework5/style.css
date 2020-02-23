@@ -16,80 +16,99 @@
 
      
     
-#wrapper{
+.wrapper{
   
  max-width:  1024px;
   margin: 0 auto;
   
 }
-
+*::after{
+  display: block;
+  content: '';
+  clear: both;
+}   
+    
 
 .header{
-  position: relative;
+  float: left;
     width: 1024px;
-    height: 100px;
+    /*height: 100px;*/
     background-color: rgb(236, 234, 230);
     padding: 0px;
     margin: 0px;
     background-size: 1024px;
-    box-sizing: border-box
+    box-sizing: border-box;
     
   }
           .logo {
-            margin: 1px 4px 1px 5px;
+            margin: 1px 1px 1px 1px;
+            float: left;
           }
 
 
-              .kievstar{
-                position: absolute;
-                  width: 90px;
-                  left: 650px;
-                  bottom: 25px;
-              }
-
-                .vadafon{
-                  position: absolute;
-                    width: 70px;
-                    left: 370px;
-                    bottom: 10px;
+          
+.mobile{
+  float: left;
+  width: 150px;
+  margin: 2px 0 0 25px;
+}
+                .kievstar{
+                  float: left;
+                    width: 90px;
+                    
                 }
-                    .numbervadafon{
-                      position: absolute;
-                      left: 440px;
-                      bottom: 21px;
+                .vadafon{
+                  float: left;
+                  width: 70px;
+                 
+                }
+                .number {
+                  float: left;
+                  width: 180px;
+              }
+                    .numberkievstar{
+                      float: left;
                       color: red;
                       font-size: 18px;
                       text-decoration: none;
+                      margin: 8px;
+                      
                     }
-                          .numberkievstar{
-                            position: absolute;
-                          left: 750px;
-                          bottom: 21px;
-                          color:
-                          red;
-                          font-size: 18px;
-                          text-decoration: none;
-                          }
+                      .numbervadafon{ 
+                        float: left;
+                        color: red;
+                        font-size: 18px;
+                        text-decoration: none;
+                        margin: 15px 0 0 6px;
+                      
+                      
+                    }
+                    
 
-                            .karzina{
-                              position: absolute;
-                              width: 55px;
-                              right: 5px;
-                              top: 10px;
-                            }
+                          
+                              
+                               /* позиционировать марджинами можно*/ 
+
+                               .karzina {
+                                float: right;
+                                  width: 45px;
+                                  margin: 0 5px 0 0;
+                                  
+                                  
+                              }
                             .search{
-                              position: absolute;
+                              float: right;
                               width: 285px;
-                              height: 23px;
-                              left: 675px;
-                              bottom: 75px;
+                              height: 23px;                           
+                              margin: 10px;                            
                               background: rgb(200, 200, 200);
                               border-radius: 2px;
                               text-align: center;
                               box-shadow: 0px 1px 1px 0px;
-                                                      }
+                          }
+                                                      
                                                       .search:hover{
-                                                        position: absolute;
+                                                        
                                                           width: 285px;
                                                           height: 23px;
                                                           left: 673px;
@@ -106,24 +125,24 @@ body{
   box-sizing: border-box;
   
 }
-      footer{
-        
-        width: 1024px;
-        position: absolute;
-        height: 120px;
-        background: rgb(211, 208, 208);
-        padding: 0px;
-        margin: 0;
-        font-size: 16px;
-        display: block;
-        box-sizing: border-box;
-        clear: both;
-        box-shadow: 0px -6px 5px -1px rgba(56, 54, 54, 0.37);
-        background: linear-gradient(to right ,rgb(214, 214, 214), #fefcea, #ffffff);
-      }
 
+      
+.footer{
+        
+  width: 1024px;
+  
+ float: left;
+  background: rgb(211, 208, 208);
+  padding: 0px;
+  margin: 0;
+  font-size: 16px;
+  display: block;  
+  box-shadow: 0px -6px 5px -1px rgba(56, 54, 54, 0.37);
+  background: linear-gradient(to right ,rgb(214, 214, 214), #fefcea, #ffffff);
+  clear: both;
+}
               .textfooter{
-                position: absolute;
+                float: left;
                   color: black;
                   font-size: 12px;
                   display: inline-block;
@@ -131,7 +150,7 @@ body{
                 
               }
               .social{
-                position: absolute;
+               float: right;
                 
                 margin: 35px 0 5px;
                 right: 5px;
@@ -139,7 +158,10 @@ body{
 
 /*----NAV меню навигации-*/
 
-
+.product{
+  -float: left;
+  margin: 0 0 0 35px;
+}
 
 #menu, #menu ul{
   list-style: none;
@@ -305,10 +327,11 @@ z-index: 10;
       text-align: center;
      }
      .leftnavblock{
-       position: absolute;
-       top: 5px;
-       z-index: 101;
-       _width: 130px;
+       float: left;
+       margin: 3px 0 0 0;
+  
+       width: 140px;
+      
      }
                                       
      #leftnav, #leftnav ul{
@@ -331,7 +354,7 @@ z-index: 10;
                   _float: left;/* смещение по вертикали меню*/
                   position: none;
                   justify-content: center ;
-                  left: 55px;
+                  
                 }
     
                       /* обнуление*/
@@ -351,6 +374,7 @@ z-index: 10;
                                 #leftnav > li:hover ul {
                                   display: block;/* делает блоки выпадающими*/
                                   color: white;
+                                  margin: 160px 0 0 111px;
                                 }
     
                                     #leftnav a{
@@ -368,32 +392,28 @@ z-index: 10;
                                           }
 
 
-.top_frame_main{
-  position: relative;
-  width: 874px;
-}
+                                          .top_frame_main {
+                                            float: left;
+                                            width: calc(100% - 265px);}
 
-.fotopoduct{
-  position: absolute;
+
+
+
+fotopoduct{
+  float: left;
   padding: 0;
   margin: 0;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  top: 370px;
-  left: 450px;
+  
+ 
+
 
 }
 
 
 .top_frame_tovar{
   padding: 0;
-  position: absolute;
-  width: 530px;
-  height: 340px;
-  left: 334px;
-  top: 5px;
-  float: left;
+  -float: left;
+
   /* margin: 5px 0 0 300px; */
   border: 2px solid rgb(212, 212, 212);
   box-sizing: border-box;
@@ -404,32 +424,30 @@ z-index: 10;
 
 
 .sidebox {
-  position: relative;
-    width: 150px;
-    height: 800px;
-    margin: 5px 0 0 872px;
-    background: linear-gradient(to top ,#fefcea3d, #fefcea, #f0660b);
-    border: 1px solid rgb(192, 191, 191);
+  float: right;
+  width: 120px;
+  height: 700px;
+  margin: 3px 0 0 0px;
+  background: linear-gradient(to top ,#fefcea3d, #fefcea, #f0660b);
+  border: 1px solid rgb(192, 191, 191);
 }
 
 
                   .pic{
-                    position: absolute;
                     float: left;
                     text-align: center;
                     font-size: 15px;
-                    left: 15px;
-                    top: 5px;
+                    margin: 0 0 0 9px;
+                    
                   }
-                                    .delivery{
-                                      font-size: 22px;
-                                      position: absolute;
-                                      top: 90px;
-                                      left: 11px;
-                                      background: orange;
-                                      width: 120px;
-                                      text-align: center;
-                                      border-radius: 10px;
-                                      box-shadow: 1px 2px 4px 1px rgb(59, 59, 59);
-                                      box-sizing: border-box;
-                                                        }
+                  .delivery {
+                    font-size: 22px;
+                    float: left;      
+                    width: 110px;
+                    margin: 0 0 0 5px;     
+                    background: orange;
+                    text-align: center;
+                    border-radius: 10px;
+                    box-shadow: 1px 2px 4px 1px rgb(59, 59, 59);
+                    box-sizing: border-box;
+                }
