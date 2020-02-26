@@ -58,7 +58,7 @@ border-right: 0;
     border-right: 0;
     border-top: 0;
     text-align: right; 
-    padding: 2px 0 0 7px;
+    padding: 0 10px;
 }
 .row3 td:nth-child(7){
     border-bottom: 0; 
@@ -172,7 +172,7 @@ border-right: 0;
     border-right: 0;
     border-bottom: 0;
     border-top: 0;
-    height: 15px;
+    
 }
 .TOTAL{
    
@@ -271,6 +271,7 @@ padding: 0 9px 25px;
 }
 .count,.count1,.count2,.count3,.count4,.count5{
     border-right:2px solid black ;
+  
 }
 thead,.row1 th:first-child{
     border: 2px solid black;
