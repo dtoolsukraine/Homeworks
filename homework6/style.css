@@ -3,7 +3,7 @@
     font-size: 14px;
     box-sizing: border-box;
     border: 1px solid black;
-    width: 870px;
+    width: 840px;
     margin: 0 auto;
 }
 .table-body {
@@ -14,7 +14,7 @@
 th{
     border: 1px solid black;
     font-weight: normal;
-    width: 100px;
+    width: 180px;
 }
 td{
     border: 1px solid black;
@@ -33,13 +33,15 @@ border-right: 0;
     border-bottom: 0;
 }
 .worth1{
-    width: 69px;
+    width: 160px;
+    vertical-align: top;
 }
 .row3 td:nth-child(3){
     border-top: 0;
     border-left: 0;
     border-bottom: 0;
     padding: 2px 0 0 7px;
+    width: 140px;
 }
 .row3 td:nth-child(4) {
     border: 0;
@@ -69,6 +71,7 @@ border-right: 0;
 .row5 td:first-child{
     border-right: 0;
     border-left: 0;
+    vertical-align: top;
 }
 
 .row4 td:first-child{
@@ -83,27 +86,27 @@ border-right: 0;
     border-right: 0;
     border-left: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 .row4 td:nth-child(3){
     border-bottom: 0;
     border-top: 0;
     border-right: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 .row4 td:nth-child(4){
     border-bottom: 0;
     border-top: 0;
     border-right: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 .row4 td:nth-child(5){
     border-bottom: 0;
     border-top: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
     
 }
 
@@ -148,24 +151,24 @@ border-right: 0;
     border-right: 0;
     border-left: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 .row6 td:nth-child(3){
     border-top: 0;
     border-right: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 .row6 td:nth-child(4){
     border-top: 0;
     border-right: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 .row6 td:nth-child(5){
     border-top: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 
 .row7 td:first-child{
@@ -224,7 +227,7 @@ border-right: 0;
     border-left: 0;  
     border-right: 0;
     text-align: right; 
-    padding: 0 9px 18px;
+    padding: 0 9px 40px;
 }
 .row8 td:nth-child(3){
     border-top: 0;
@@ -237,32 +240,32 @@ border-right: 0;
 border-top: 0;
 border-right: 0;
 text-align: right; 
-padding: 0 9px 25px;
+padding: 0 9px 40px;
 }
 .row8 td:nth-child(5){
     text-align: right; 
     border-right: 0;
     border-top: 0;
-    padding: 0 9px 25px;
+    padding: 0 9px 40px;
 }
 .row8 td:nth-child(6){
     text-align: right; 
     border-right: 0;
     border-top: 0;
-    padding: 0 9px 25px;
+    padding: 0 9px 40px;
 }
 .row8 td:nth-child(7){  
     border-top: 0;
     text-align: right; 
-    padding: 0 9px 25px;
+    padding: 0 9px 40px;
 }
 .wight1{
-    width: 160px ;
+    width: 165px ;
     height: 145px;
     vertical-align: top;
     padding: 0 0 0 3px;
 }
-.wight57{
+_wight57{
     width: 90px;
 }
 .wighttotal{
