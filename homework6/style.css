@@ -1,17 +1,281 @@
-.products td, .products th{
+.table {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 870px;
+    margin: 0 auto;
+}
+.table-body {
+    border-collapse: collapse;
+    margin: 8px 2px 2px 2px;
+    border: 2px solid black;
+}
+th{
+    border: 1px solid black;
+    font-weight: normal;
+    width: 100px;
+}
+td{
+    border: 1px solid black;
+}
+.row1,.row2 tr:nth-child(2){
+    border-right: 0;
+}
+.row3 td:first-child{
+    border-right: 0;
+    border-top: 0;
+}
+.row3 td:nth-child(2){
+border-right: 0;
+    border-left: 0;
+    border-top:0;
+    border-bottom: 0;
+}
+.worth1{
+    width: 69px;
+}
+.row3 td:nth-child(3){
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    padding: 2px 0 0 7px;
+}
+.row3 td:nth-child(4) {
+    border: 0;
+   text-align: right; 
+   padding: 0 10px;
+}
+.row3 td:nth-child(5){
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+.row3 td:nth-child(6){
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 0;
+    text-align: right; 
+    padding: 2px 0 0 7px;
+}
+.row3 td:nth-child(7){
+    border-bottom: 0; 
+    border-top: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+.row5 td:first-child{
+    border-right: 0;
+    border-left: 0;
+}
+
+.row4 td:first-child{
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    padding: 7px 9px 7px;
+}
+.row4 td:nth-child(2){
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+.row4 td:nth-child(3){
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+.row4 td:nth-child(4){
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+.row4 td:nth-child(5){
+    border-bottom: 0;
+    border-top: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
     
-    height: 40px;
-    vertical-align: top;}
+}
 
+.row5 td:nth-child(2){
+    border-bottom: 0;
+    border-left: 0;
+    padding: 2px 0 0 7px;
+}
+.row5 td:nth-child(3){
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+.row5 td:nth-child(4){
+    border-bottom: 0;
+    border-right: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+.row5 td:nth-child(5){
+    border-bottom: 0;
+    border-right: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+.row5 td:nth-child(6){
+    border-bottom: 0;
+    text-align: right; 
+    padding: 0 10px;
+  
+}
 
-    .products{
-        border: 0px;  /* обнуление таблицы*/
-    }
-    .products{
-        border: 2px solid black;
-    }
+.row6 td:first-child{
+    border-top: 0;
+    border-left: 0;
+    padding: 7px 9px 7px;
+}
+.row6 td:nth-child(2){
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+.row6 td:nth-child(3){
+    border-top: 0;
+    border-right: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+.row6 td:nth-child(4){
+    border-top: 0;
+    border-right: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+.row6 td:nth-child(5){
+    border-top: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+
+.row7 td:first-child{
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    height: 15px;
+}
+.TOTAL{
    
-    TD {
-        text-align: center; /* Выравнивание по центру */
-        padding: 0 0 0 3px; /* Поля вокруг текста */
-       }
+    width: 250px;
+    padding: 0 3px;
+}
+.row7 td:nth-child(2){
+    border: 0;    
+}
+.row7 td:nth-child(3){
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+    padding: 2px 0 0 7px; 
+}
+.row7 td:nth-child(4){
+    border: 0;
+    text-align: right;
+    padding: 0 10px; 
+}
+.row7 td:nth-child(5){
+    border-bottom: 0; 
+    border-right: 0;
+    border-top: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+.row7 td:nth-child(6){
+    border-bottom: 0;  
+    border-right: 0;
+    border-top: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+.row7 td:nth-child(7){
+    border-bottom: 0;     
+    border-top: 0;
+    text-align: right; 
+    padding: 0 10px;
+}
+
+.row8 td:first-child{
+    border-right: 0;   
+    border-top: 0;  
+    
+}
+.row8 td:nth-child(2){
+    border-top: 0;
+    border-left: 0;  
+    border-right: 0;
+    text-align: right; 
+    padding: 0 9px 18px;
+}
+.row8 td:nth-child(3){
+    border-top: 0;
+    border-left: 0;  
+    
+    padding: 7px 9px 7px;
+}   
+.row8 td:nth-child(4){
+   border-left: 0; 
+border-top: 0;
+border-right: 0;
+text-align: right; 
+padding: 0 9px 25px;
+}
+.row8 td:nth-child(5){
+    text-align: right; 
+    border-right: 0;
+    border-top: 0;
+    padding: 0 9px 25px;
+}
+.row8 td:nth-child(6){
+    text-align: right; 
+    border-right: 0;
+    border-top: 0;
+    padding: 0 9px 25px;
+}
+.row8 td:nth-child(7){  
+    border-top: 0;
+    text-align: right; 
+    padding: 0 9px 25px;
+}
+.wight1{
+    width: 160px ;
+    height: 145px;
+    vertical-align: top;
+    padding: 0 0 0 3px;
+}
+.wight57{
+    width: 90px;
+}
+.wighttotal{
+    width: 60px ;
+    vertical-align: bottom;
+}
+.count,.count1,.count2,.count3,.count4,.count5{
+    border-right:2px solid black ;
+}
+thead,.row1 th:first-child{
+    border: 2px solid black;
+}
+.table-title{
+    font-weight: 700;
+}
+
