@@ -1,0 +1,15 @@
+.wrapper{
+  width: 900px;
+  margin: 0px auto;
+}
+/*градиент над слайдом1*/
+градиент главное слайда {
+    background-image: -moz-linear-gradient( -45deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+    background-image: -webkit-linear-gradient( -45deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+    background-image: -ms-linear-gradient( -45deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+    
+  }
+  .search{
+    cursor: pointer;
+    mag
+  }
