@@ -9,31 +9,35 @@
 </head>
 
 <body>
-    <form action="https://nickblack.pro/send.php"  method="post">
+    <form action="https://nickblack.pro/send.php" method="post">
         <label for="name-input">Имя <em>*</em></label>
         <input type="text" id="name-input" name="fname">
 
         <br>
         <p>
-            <label for="name-input">Фамилия</label>
+            <label for="lastname-input">Фамилия </label>
             <input type="text" id="lastname-input" name="sname">
 
         </p>
         <p> <label for="age">Возраст </label>
-            <input type="number" step="1" min="1" max="100" value="10" id="age" name="age" />
+            <input type="number" id="age" step="1" min="1" max="100" value="0" id="age" name="age">
         </p>
         <p><label>Почта <input type="post" name="mail"></label>
         </p>
-        <p><label>Дата Рождения</label><input type="date" min="1900-01-01" name="bday"></label>
+
+        <p>
+            <label for="bdays"> Дата Рождения </label>
+            <input type="date" id="bdays" min="1900-01-01" name="bday">
         </p>
 
         <p><label>Телефон <input type="tel" name="phone"></label>
         </p>
         <p>
-            <label for="email">Email <em>*</em></label>
-            <input type="email" value="dtoolsukraine@gmail.com" disabled>
+            <label>Email получателя <em>*</em>
+                <input type="email" value="dtoolsukraine@gmail.com" readonly name="mymai"></label>
+
         </p>
-        <input type="submit">
+        <input type="submit" value="Отослать">
 
     </form>
 </body>
