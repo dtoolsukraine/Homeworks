@@ -1,15 +1,388 @@
-.wrapper{
-  width: 900px;
-  margin: 0px auto;
+
+*{
+  box-sizing: border-box;
 }
-/*градиент над слайдом1*/
-градиент главное слайда {
-    background-image: -moz-linear-gradient( -45deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    background-image: -webkit-linear-gradient( -45deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
-    background-image: -ms-linear-gradient( -45deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+body{
+  font-family: 'Open Sans' , sans-serif;
+  background:#3e3b4a;
+}
+.wrapper{
+  width: 1020px;
+  margin: 0 auto;
+}
+h1, h2, h3{
+  margin: 0;
+}
+.main-container{
+  background:#3e3b4a;
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+   align-content: center;
+    align-content: center;
+    padding: 70px 0 75px;
+    }
+
+    .header-menu_left, .search{
+      display: flex;
+      color: #7d7a85;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+     font-size: 12px;
+    align-items: center;
+    background-repeat: no-repeat;
+    letter-spacing: 3px;
+    }
+    .header-menu_left{
+      background-image: url(img/menu_left.png);
+     
+      background-position: left center;
+      padding-left: 35px;
+    }
+    .search{
+      background-position: right center;
+      
+    }
+    .searchimg{
+      margin-left: 10px;
+    }
+  
+
+    .header-title1 {
+      font-weight: bold;
+      text-transform: uppercase;
+     font-size: 48px;
+    align-items: center;
+    color: white;
+    }
+    .header-title2{
+      font-weight: 400;
+     font-size: 13px;
+    align-items: center;
+      color: #898691;
+    }
+
+
+  
+
+    .mean-slide{
+      display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+/* главный слайд*/
+
+    .mean-slide_item{
+      display: flex;
+      height: 512px;
+      background-image: url(img/slide1.jpg);
+      background-repeat: no-repeat;
+      flex-direction: column;
+      flex-basis: 100%;
+      margin-bottom: 20px;
+      padding-top: 40px;
+      padding-left: 43px;
+      padding-bottom: 38px;
+      background-size: cover;
+    }
+
+.blue-coral-slide_item{
+  display: flex;
+  justify-content: center;
+  width: 1020px;
+}
+
+    .home{
+      display: block;
+      text-decoration: none;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #ffc7b0;
+      font-weight: bold;
+      letter-spacing: 3px;
+      padding-left: 4px;
+    }
+    .slide_text_h1{
+      display: block;
+      font-size: 72px;
+      line-height: 75px;
+      color: white;
+    }
+    .slide_text_description{
+      display: block;
+      font-size: 36px;
+      line-height: 45px;
+      color: white;
+      font-weight: 400;
+      margin: 10px;
+    }
+    .readmore{
+      display: block;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      border: 3px solid #ffe18f;
+      padding: 9px 7px 11px 8px;
+      margin-top: auto;
+      width: 129px;
+    }
+    .readmore_green{
+      display: block;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      border: 3px solid #ffe18f;
+      padding: 9px 7px 11px 8px;
+      margin-top: 161px;
+      margin-left: 42px;
+      width: 135px;
+    }
+  
+
+    /*5 слайдов блока*/
     
+
+    .blue-slide_item{
+      display: flex;
+      flex-direction: column;
+      width: 622px;
+      height: 486px;
+      background-color: #76bac7;
+      display: flex;
+      background-repeat: no-repeat;
+      margin-bottom: 20px;
+      padding-top: 40px;
+      padding-left: 43px;
+      padding-bottom: 38px;
+      background-size: cover;
+      background-image: url(img/sumka.png);
+      background-repeat: no-repeat;
+    background-size: 379px 470px;
+    background-position: top right;
+          }
+
+    .blue-slide_accessories{
+      display: block;
+      text-decoration: none;
+      color: #ffc7b0;
+      letter-spacing: 3px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    .blue-slide-text_h1{
+      display: block;
+      color: white;
+      font-size: 48px;
+      font-weight: bold;
+      
+      margin-top: 22px;
+ 
+      
+    }
+    .blue-slide_text_description{
+      display: block;
+      font-size: 24px;
+      color: white;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+
+
+
+    .coral-slide_item{
+      width: 377px;
+      background-color: #eb7b61;
+      height: 485px;
+      display: flex;
+      flex-direction: column;  
+    }
+      .coral-slide-text_h1{
+    font-size: 48px;
+    font-family: "Times New Roman";
+    color: #ffffff;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;    
+    margin-top: 77px;
+}
+.coral-slide_text_description{
+font-size: 24px;
+    font-family: "Times New Roman";
+    color: #ffffff;
+    line-height: 1.2;
+    font-weight: 400; 
+    text-align: center;
+    margin-bottom: 38px;  
+}
+.coral-slide_text_h4{
+margin-top: 28px;
+font-size: 14px;
+color: #fff;
+line-height: 1.2;
+text-align: center;
+font-weight: 400;
+
+}
+
+/*кнопки на розовом*/
+
+.subscribe{
+  background-color: #66689c;
+  border: none;
+  padding: 9px 95px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #fff;
+  text-decoration: none;
+  width: 285px;
+  margin-left: 50px;
+  margin-top: 19px;
+}
+
+.you_email{
+  border: 3px solid #ffd9d1;
+  background-color: #eb7b61;
+  padding: 9px 51px 10px 50px;
+  text-decoration: none;
+  color:#ffd9d1;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+  width: 285px;
+  text-align: center;
+  
+}
+
+
+
+    .first-slide_bottom{
+      display: flex;
+      flex-direction: column;
+      width: 260px;
+      background-image: url(img/fotocamera1.png);
+      height: 420px;
+      
+    }
+    .second-slide_bottom{
+      display: flex;
+      flex-direction: column;
+      width: 260px;
+      background-image: url(img/fotocamera2.png);
+      height: 420px;
+    }
+    .third-slide_bottom{
+      display: flex;
+      flex-direction: column;
+      width: 460px;
+      height: 420px;
+      background-color: #1ab467;
+      background-image: url(img/fotik.png);
+      background-repeat: no-repeat;
+      background-size: 323px  263px;
+      background-position: right bottom;
+    }
+
+    .cameras, .sound{
+      color:#ffc7b0;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-align: center;
+      margin-top: 35px;
+      
+    }
+    .first-slide_bottom-text_h1, .second-slide_bottom-text_h1, .third-slide_bottom-text_h1{
+      color: white;
+      font-size: 36px;
+      
+    }
+    .first-slide_bottom-text_h1{
+      margin: 130px 0 0 65px;
+    }
+    .second-slide_bottom-text_h1{
+      margin-top: 115px;
+      text-align: center;
+    }
+    .review1{
+      margin-top: 121px;
+      margin-left: 83px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #3d3c4a;
+      font-weight: bold;
+      text-align: center;
+      background-color: #f7e091;
+      width: 93px;
+      height: 42px;
+      padding: 11px 0 15px 0;
+    }
+    .review2{
+      margin-top: 95px;
+      margin-left: 83px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #3d3c4a;
+      font-weight: bold;
+      text-align: center;
+      background-color: #f7e091;
+      width: 93px;
+      height: 42px;
+      padding: 11px 0 15px 0;
+    }
+
+    .third-slide_bottom-text_h1{
+
+      margin: 15px 0 0 43px;
+
+    }
+    .third-slide_bottom-text{
+      color:#ffc7b0;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      text-align: left;
+      margin-top: 35px;
+      margin-left: 43px;
+      
+    }
+    .green-slide_text_description{
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      margin: 22px 0 0 43px;
+    }
+
+
+    .footer__elements{
+      display: flex;
+      justify-content: space-between;
+      padding: 56px 0 65px;
+      
   }
-  .search{
-    cursor: pointer;
-    mag
+  
+  .footer__copyright{    
+      color: rgb(137, 134, 145);
+      line-height: 1.2;
+      font-size: 14px;    
   }
+  
+  .footer__networks{
+      width: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+        
+  }
+ 

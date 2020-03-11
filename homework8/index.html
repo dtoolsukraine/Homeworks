@@ -11,7 +11,7 @@
 <body>
     <form action="https://nickblack.pro/send.php" method="post">
         <label for="name-input">Имя <em>*</em></label>
-        <input type="text" id="name-input" name="fname">
+        <input type="text" id="name-input" required name="fname">
 
         <br>
         <p>
@@ -30,11 +30,11 @@
             <input type="date" id="bdays" min="1900-01-01" name="bday">
         </p>
 
-        <p><label>Телефон <input type="tel" name="phone"></label>
+        <p><label>Телефон <input type="tel" required name="phone"></label>
         </p>
         <p>
             <label>Email получателя <em>*</em>
-                <input type="email" value="dtoolsukraine@gmail.com" readonly name="mymai"></label>
+                <input type="email" value="dtoolsukraine@gmail.com" readonly name="mymail" required></label>
 
         </p>
         <input type="submit" value="Отослать">
