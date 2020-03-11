@@ -378,11 +378,11 @@ font-weight: 400;
   }
   
   .footer__networks{
-      width: 60px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: center;
-        
+      align-items: center;   
   }
- 
+ .footer__facebook{
+   margin-right: 23px;
+ }
