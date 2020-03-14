@@ -110,6 +110,7 @@ h1, h2, h3{
       font-size: 72px;
       line-height: 75px;
       color: white;
+      margin-top: 20px;
     }
     .slide_text_description{
       display: block;
@@ -117,8 +118,8 @@ h1, h2, h3{
       line-height: 45px;
       color: white;
       font-weight: 400;
-      margin: 10px;
-    }
+      margin: 10px 0 0 0;
+    } 
     .readmore{
       display: block;
       text-decoration: none;
@@ -129,6 +130,7 @@ h1, h2, h3{
       padding: 9px 7px 11px 8px;
       margin-top: auto;
       width: 129px;
+     
     }
     .readmore_green{
       display: block;
@@ -179,9 +181,8 @@ h1, h2, h3{
       display: block;
       color: white;
       font-size: 48px;
-      font-weight: bold;
-      
-      margin-top: 22px;
+      font-weight: bold; 
+      margin-top: 10px;
  
       
     }
@@ -190,7 +191,7 @@ h1, h2, h3{
       font-size: 24px;
       color: white;
       font-weight: 400;
-      margin-top: 20px;
+      margin-top: 10px;
     }
 
 
@@ -313,8 +314,11 @@ font-weight: 400;
       text-align: center;
     }
     .review1{
-      margin-top: 121px;
-      margin-left: 83px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      _margin-top: 121px;
+      _margin-left: 83px;
       text-decoration: none;
       font-size: 20px;
       color: #3d3c4a;
@@ -323,11 +327,14 @@ font-weight: 400;
       background-color: #f7e091;
       width: 93px;
       height: 42px;
-      padding: 11px 0 15px 0;
+      _padding: 11px 0 15px 0;
     }
     .review2{
-      margin-top: 95px;
-      margin-left: 83px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      _margin-top: 95px;
+      _margin-left: 83px;
       text-decoration: none;
       font-size: 20px;
       color: #3d3c4a;
