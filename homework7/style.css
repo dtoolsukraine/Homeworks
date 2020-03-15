@@ -1,4 +1,4 @@
-
+﻿
 *{
   box-sizing: border-box;
 }
@@ -127,9 +127,10 @@ h1, h2, h3{
       font-weight: bold;
       color: white;
       border: 3px solid #ffe18f;
-      padding: 9px 7px 11px 8px;
+      padding: 6px 7px 8px 7px;
       margin-top: auto;
-      width: 129px;
+      
+      margin-right: auto;
      
     }
     .readmore_green{
@@ -139,10 +140,12 @@ h1, h2, h3{
       font-weight: bold;
       color: white;
       border: 3px solid #ffe18f;
-      padding: 9px 7px 11px 8px;
-      margin-top: 161px;
+      padding: 6px 7px 8px 7px;
+      margin-top: auto;
       margin-left: 42px;
-      width: 135px;
+      
+      margin-right: auto;
+      
     }
   
 
@@ -269,6 +272,7 @@ font-weight: 400;
       width: 260px;
       background-image: url(img/fotocamera1.png);
       height: 420px;
+      padding-bottom:  40px;
       
     }
     .second-slide_bottom{
@@ -277,6 +281,7 @@ font-weight: 400;
       width: 260px;
       background-image: url(img/fotocamera2.png);
       height: 420px;
+      padding-bottom:  40px;
     }
     .third-slide_bottom{
       display: flex;
@@ -288,6 +293,7 @@ font-weight: 400;
       background-repeat: no-repeat;
       background-size: 323px  263px;
       background-position: right bottom;
+      padding-bottom: 38px;
     }
 
     .cameras, .sound{
@@ -316,34 +322,39 @@ font-weight: 400;
     .review1{
       display: flex;
       justify-content: center;
-      align-items: center;
-      _margin-top: 121px;
-      _margin-left: 83px;
+      align-items: center; 
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
       text-decoration: none;
       font-size: 20px;
       color: #3d3c4a;
       font-weight: bold;
       text-align: center;
       background-color: #f7e091;
-      width: 93px;
+      _width: 93px;
       height: 42px;
-      _padding: 11px 0 15px 0;
+      padding-left: 11px;
+      padding-right: 11px;
+      
     }
     .review2{
       display: flex;
       justify-content: center;
       align-items: center;
-      _margin-top: 95px;
-      _margin-left: 83px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
       text-decoration: none;
       font-size: 20px;
       color: #3d3c4a;
       font-weight: bold;
       text-align: center;
       background-color: #f7e091;
-      width: 93px;
+      _width: 93px;
       height: 42px;
-      padding: 11px 0 15px 0;
+      padding-left: 11px;
+      padding-right: 11px;
     }
 
     .third-slide_bottom-text_h1{
@@ -361,6 +372,7 @@ font-weight: 400;
       text-align: left;
       margin-top: 35px;
       margin-left: 43px;
+      
       
     }
     .green-slide_text_description{
