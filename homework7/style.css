@@ -7,7 +7,7 @@ body{
   background:#3e3b4a;
 }
 .wrapper{
-  width: 1020px;
+  max-width: 1020px;
   margin: 0 auto;
 }
 h1, h2, h3{
