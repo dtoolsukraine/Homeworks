@@ -1,4 +1,4 @@
-﻿
+
 *{
   box-sizing: border-box;
 }
@@ -382,25 +382,25 @@ font-weight: 400;
     }
 
 
-    .footer__elements{
+    .footer_elements{
       display: flex;
       justify-content: space-between;
       padding: 56px 0 65px;
       
   }
   
-  .footer__copyright{    
+  .footer_copyright{    
       color: rgb(137, 134, 145);
       line-height: 1.2;
       font-size: 14px;    
   }
   
-  .footer__networks{
+  .footer_networks{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;   
   }
- .footer__facebook{
+ .footer_facebook{
    margin-right: 23px;
  }
