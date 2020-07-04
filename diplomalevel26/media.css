@@ -14,27 +14,26 @@
     margin: 15px auto;
   }
 }
-  /* padding: 58px;
-    text-align: center;
-    align-items: center;
-    width: 240px;
-    height: 720px; 
-    background-color: #fff;
-    border-radius: 25px;
-    border: 1px solid #d7dbe8;
-   
+@media screen and (max-width: 1100px)
+{
+  .menu-link-bottom-footer{
+    margin-right:10px ;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    transition: 0.5s;
   }
-  .prise_block p{
-    width: 185px;
+  .footer-logo{
+    margin-top: 25px;
   }
-  .main-text{
-      width: 70%;
-  }*/
-
+  .footer-menu {
+    margin-bottom: 25px;
+}
+}
 
 /* Medium Devices, Desktops */
+
 @media screen and (max-width: 768px) {
   .visible-lg {
     display: none;
@@ -53,18 +52,32 @@
 .menu-link-bottom {
   margin: 0;
 }
-
-.footer {
-  justify-content: center;
+  /*footer*/
+  .footer-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px;
 }
 
-.footer-menu {
-  display: none;
-}
-.legal{
-  flex-direction: column;
+
+.menu-link-bottom-footer {
+  /* margin-right: 10px; */
+  /* text-align: center; */
+  /* align-items: center; */
+  /* display: flex; */
+  margin-right: 65px;
+  line-height: 94px;
   
 }
+.legal{
+  display: flex;
+  flex-direction: column;
+  margin-top: 155px;
+}
+.social-network{
+  margin-left: 55px;
 h1{
   font-size: 55px;
 }
@@ -83,8 +96,15 @@ h1{
   font-size: 25px;
   margin-left: 15px;
 }
+.earth{
+  width: 65px;
+  height: 48px;
+}
 .bbn{
-  margin-bottom: 95px;
+  margin-left: 35px;
+}
+.title-h4{
+  font-size: 50px;
 }
 .prise_block{
   width: 340px;
@@ -102,5 +122,60 @@ h1{
   padding-top: 15px;
   
 }
+.get_block_slide{
+  flex-direction: column;
+}
 
 }
+@media screen and (max-width: 400px) {
+  .logo{
+    width: 50px;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  .earth{
+    width: 60px;
+    height: 43px;
+  }
+  .bbn{
+    margin-right: 15px;
+  }
+  .prise_block{
+    width: 340px;
+  }
+  .table-title{
+    font-size: 10px;
+  }
+  .table-header h2{
+    font-size: 45px;
+  }
+  .table-header p{
+    font-size: 12px;
+  }
+  .social-network{
+    padding-top: 15px;
+    
+  }
+  
+  .title-h4{
+    font-size: 45px;
+  }
+  .gets_button, .explore_button{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+  }
+  .liner{
+    display: block;
+    width: 90%;
+   
+    height: 2px;
+    background-color: brown;
+  }
+  .prise_block{
+    width: 270px;
+  }
+  .prise_mean_text{
+    width: 270px
+  }
+  }
